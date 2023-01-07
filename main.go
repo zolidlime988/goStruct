@@ -9,8 +9,7 @@ func main() {
 			zipCode: 123456,
 		},
 	}
-
-	jim.print()
-	jim.updateFirstName("newJim")
+	pJim := &jim
+	pJim.updateFirstName("newJim")
 	jim.print()
 }
