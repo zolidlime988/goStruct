@@ -1,6 +1,11 @@
 package main
 
-type person struct {
+type Person struct {
 	firstName string
 	lastName  string
+	ContactInfo
+}
+type ContactInfo struct {
+	email   string
+	zipCode int
 }
